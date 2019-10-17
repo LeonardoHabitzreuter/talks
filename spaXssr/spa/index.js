@@ -2,19 +2,16 @@ import React, { memo } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
-const Menu = () => {
-  console.log('render')
-  return (
-    <>
-      <Link to={'/'}>
-        Home
-      </Link>
-      <Link to={'/page'}>
-        Page
-      </Link>
-    </>
-  )
-}
+const Menu = () => (
+  <>
+    <Link to='/'>
+      Home
+    </Link>
+    <Link to='/page'>
+      Page
+    </Link>
+  </>
+)
 
 const Home = () => (
   <>

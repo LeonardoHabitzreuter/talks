@@ -1,18 +1,17 @@
 {
-  "name": "spa",
+  "name": "ssr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "next"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
+    "next": "^8.1.0",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-router-dom": "^5.1.2"
+    "react-dom": "^16.10.2"
   }
 }
